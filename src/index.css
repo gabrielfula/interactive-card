@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
 .background-image {
   background-image: url("./bg-main-desktop.png");
   background-repeat: no-repeat;
