@@ -21,7 +21,7 @@ export default function Form() {
             <input
               type="text"
               placeholder="e.g. Jane Appleseed"
-              className="border bg-zinc-100 shadow-sm"
+              className="border bg-zinc-100 shadow-sm p-1 outline-none pl-2"
               {...register("name")}
             />
           </div>
@@ -32,7 +32,7 @@ export default function Form() {
             <input
               type="text"
               placeholder="e.g. 1234 5678 9123 0000"
-              className="border bg-zinc-100 shadow-sm"
+              className="border bg-zinc-100 shadow-sm p-1 outline-none pl-2"
               {...register("card")}
             />
           </div>
@@ -45,13 +45,13 @@ export default function Form() {
                 <input
                   type="text"
                   placeholder="MM"
-                  className="border bg-zinc-100 shadow-sm"
+                  className="border bg-zinc-100 shadow-sm p-1 outline-none pl-2"
                   {...register("month")}
                 />
                 <input
                   type="text"
                   placeholder="YY"
-                  className="border bg-zinc-100 shadow-sm"
+                  className="border bg-zinc-100 shadow-sm p-1 outline-none pl-2"
                   {...register("year")}
                 />
               </div>
@@ -63,7 +63,7 @@ export default function Form() {
               <input
                 type="text"
                 placeholder="e.g. 123"
-                className="border bg-zinc-100 shadow-sm"
+                className="border bg-zinc-100 shadow-sm p-1 outline-none pl-2"
                 {...register("cvv")}
               />
             </div>
